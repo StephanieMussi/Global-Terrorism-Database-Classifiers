@@ -34,8 +34,9 @@ Train Accuracy | Test Accuracy
 52.85% | 52.40%
 
 The graphs of accuracies and losses are plotted:  
-![MonthAccuracy](https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/MonthAccuracy.png){:height="50%" width="50%"}  
-![MonthLoss](https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/MonthLoss.png){:height="50%" width="50%"}  
+<img src="https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/MonthAccuracy.png" width="100" height="100">
+![MonthAccuracy](https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/MonthAccuracy.png)
+![MonthLoss](https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/MonthLoss.png)
 
 The confusion matrix of prediction on test set is:  
 ![MonthPredictionHeatmap](https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/MonthPredictionHeatmap.png){:height="50%" width="50%"}  
