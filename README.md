@@ -39,7 +39,7 @@ The graphs of accuracies and losses are plotted:
 <img src="https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/MonthLoss.png" width="300" height="200">  
 
 The confusion matrix of prediction on test set is:  
-<img src="https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/MonthPredictionHeatmap.png" width="500" height="800">   
+<img src="https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/MonthPredictionHeatmap.png" width="500" height="600">   
 
 ## Region Classifier
 In this classifier, there are 12 output classes:  
@@ -58,7 +58,7 @@ The graphs of accuracies and losses are plotted:
 <img src="https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/RegionLoss.png" width="300" height="200">   
 
 The confusion matrix of prediction on test set is:  
-<img src="https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/RegionPredictionHeatmap.png" width="500" height="800">   
+<img src="https://github.com/StephanieMussi/Global_Terrorism_Database_Classifiers/blob/main/Figures/RegionPredictionHeatmap.png" width="500" height="600">   
 
 As it is observed, the region classifier achieves a higher accuracy as compared to the month classifier. This is because the variables such as __country__ and __city__ have a strong correlation to the variable __region__, while the input variables have much weaker correlation to month.
  
