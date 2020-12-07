@@ -8,7 +8,8 @@ __year__, __month__, __country__, __region__, __city__, __success__, __suicide__
 
 ## Month Classifier
 In this classifier, there are 12 output classes:  
-1(_January_), 2(_February_), 3(_March_), 4(_April_), 5(_May_), 6(_June_), 7(_July_), 8(_August_), 9(_September_), 10(_October_), 11(_November_), 12(December_).  
+1 (_January_), 2 (_February_), 3 (_March_), 4 (_April_), 5 (_May_), 6 (_June_), 7 (_July_), 8 (_August_), 9 (_September_), 10 (_October_), 11 (_November_), 12 (_December_).  
+
 A deep neural network with 5 hidden layers is used:  
 
 ```python
@@ -22,10 +23,34 @@ model = keras.Sequential([
     keras.layers.Dense(12, activation='softmax')   
 ])
 ```
+
 There are two ways to implement the output Softmax layer:  
   1. No. of classes = 12, and all values of month are decreased by 1 to fit the 0~11 output range of the Softmax layer.
   1. No. of classes = 13, and no modification is needed.
 
+The accuracies of the model are:  
+Train Accuracy | Test Accuracy
+------------ | -------------
+52.85% | 52.40%
+
+The graphs of accuracies and losses are plotted:  
+
+The confusion matrix of prediction on test set is:  
+
+
 ## Region Classifier
 In this classifier, there are 12 output classes:  
-1(_North America_), 2(_Central America & Caribbean_), 3(_South America_), 4(_East Asia_), 5(_Southeast Asia_), 6(_South Asia_), 7(_Central Asia_), 8(_Western Europe_), 9(_Eastern Europe_), 10(_Middle East & North Africa_), 11(_Sub-Saharan Africa_), 12(_Australasia & Oceania_).
+1 (_North America_), 2 (_Central America & Caribbean_), 3 (_South America_), 4 (_East Asia_), 5 (_Southeast Asia_), 6 (_South Asia_), 7 (_Central Asia_), 8 (_Western Europe_), 9 (_Eastern Europe_), 10 (_Middle East & North Africa_), 11 (_Sub-Saharan Africa_), 12 (_Australasia & Oceania_).  
+
+The model used is the same as in the Month Classifier.  
+
+The accuracies of the model are:  
+Train Accuracy | Test Accuracy
+------------ | -------------
+84.07% | 83.56%
+
+The graphs of accuracies and losses are plotted:  
+
+The confusion matrix of prediction on test set is:  
+
+
